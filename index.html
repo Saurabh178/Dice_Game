@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>area</title>
+	<script type="text/javascript" src="jscript.js"></script>
+	<link rel="stylesheet" type="text/css" href="area.css">
+</head>
+<body>
+	<div id="container">
+		<form>
+			<div class="area">	AREA:</div><br>
+			width:<br><input class="inbox" id="width" type="number"><br><br>
+			height:<br><input class="inbox" id="height" type="number"><br><br>
+			<input type="button" id="button" onclick="calc()" value="get area">
+			<input type="text" class="inbox" id="answer" size="8px"><br><br>
+			<input type="reset" class="reset" onclick="document.getElementById('message').innerHTML='';" value="clear">
+			<p id="message"></p>
+		</form>
+	</div>
+</body>
+</html>

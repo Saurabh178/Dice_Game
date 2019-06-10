@@ -1,0 +1,68 @@
+body{
+	margin:0px;
+	padding:0px;
+	background-color: #eee;
+}
+#container{
+	height:100%;
+	width:200px;
+	border:1px solid #eee;
+	text-align: center;
+	margin:auto;
+}
+.area{
+	background-color: red;
+	color:white;
+	font-weight: 2vw;
+	border:1px solid red;
+	border-radius: 10px 10px 0px 0px;
+	padding: 10px;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24);
+}
+#button{
+	margin-right:0px ;
+	padding:10px;
+	background-color: skyblue;
+	color:white;
+	font-weight: 2vw;
+	border:none;
+	border-radius:5px 5px 5px 5px;
+}
+#button:hover{
+	background-color: red;
+	transition: 2s;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24);
+}
+.inbox{
+	margin:0px;
+	padding:5px;
+	border:1px solid #ccc;
+	border-radius: 5px;
+	background-color:#ccc;
+}
+.inbox:hover{
+	background-color:transparent;
+	border:1px solid #ccc;
+}
+#answer{
+	padding:10px;
+	border-radius: 5px 5px 5px 5px;
+}
+.reset{
+	width:100%;
+	margin-top:0px ;
+	padding:10px;
+	background-color: skyblue;
+	color:white;
+	font-weight: 2vw;
+	border:none;
+	border-radius:0px 0px 10px 10px;
+	curser:pointer;	
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24);
+}
+#message{
+	text-align: left;
+	color:red;
+	font-style:sans-serif;
+	font-size: 1vw;
+}
